@@ -6,9 +6,9 @@ See this repository's [CONTRIBUTING.md](https://github.com/berkeley-dsep-infra/d
 
 # building the image locally
 
-You can use [repo2-docker](https://repo2docker.readthedocs.io/en/latest/) to build and use/test the image on your own device.  
+You should use [repo2-docker](https://repo2docker.readthedocs.io/en/latest/) to build and use/test the image on your own device before you push and create a PR.  It's better (and typically faster) to do this first before using CI/CD.  There's no need to waste Github Action minutes to test build images when you can do this on your own device!
 
-launch `repo2docker` from inside the cloned image repo.  To run on a linux/WSL2 linux shell:
+Run `repo2docker` from inside the cloned image repo.  To run on a linux/WSL2 linux shell:
 ```
 repo2docker . # <--- the path to the repo
 ```
@@ -23,4 +23,4 @@ jupyter-repo2docker --user-id=1000 --user-name=jovyan \
   . # <--- the path to the repo
 ```
 
-If you just want to see if the image builds, but not automatically launch a notebook, then add `--no-run` to the arguments (before the final `.`).
+If you just want to see if the image builds, but not automatically launch the server, add `--no-run` to the arguments (before the final `.`).
