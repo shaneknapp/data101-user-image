@@ -61,14 +61,14 @@ dependencies:
 - pandocfilters==1.5.0
 - pep8==1.7.1
 - pgspecial==1.13.1
-- pillow # ==9.2.0
+- pillow==10.0.1 # sknapp 2024-09-05 had to unpin this version to fix build ==9.2.0
 - plotly==5.13.1
 - pooch==1.6.0
 - prettytable==3.4.1
 - pyarrow==9.0.0
 - pypdf2==2.10.4
 - pytables==3.7.0
-- pytest # ==7.1.2
+- pytest==8.3.2 # sknapp 2024-09-05 had to unpin this version to fix build ==7.1.2
 - pytest-cov==3.0.0
 - python-pdfkit==1.0.0
 - requests==2.28.2
@@ -79,7 +79,7 @@ dependencies:
 - sphinx-jupyterbook-latex==0.5.2
 - sqlparse==0.4.3
 - statsmodels==0.14.0
-- sympy # ==1.10.1
+- sympy==1.13.2 # sknapp 2024-09-05 had to unpin this version to fix build ==1.10.1
 - tornado==6.2.0
 - tqdm==4.64.0
 - xarray==2023.5.0
