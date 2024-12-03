@@ -6,7 +6,7 @@ channels:
 dependencies:
 - python==3.11.*
 - syncthing==1.20.4
-- git==2.39.1
+- git==2.47.1
 - altair==5.0.1
 - beautifulsoup4==4.11.1
 - black==22.6.0
