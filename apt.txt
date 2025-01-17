@@ -1,10 +1,8 @@
 # Some linux packages for basic terminal work, particularly
 # oriented at users new to Unix/cmd line environments.
 
-# installing less as more just isn't enough
-less
-
 # Basic unix tools
+less
 man
 man-db
 manpages-posix
@@ -14,6 +12,7 @@ manpages-posix-dev
 # Download tools
 curl
 wget
+rsync
 
 # Core text editors on a *nix box: vim
 vim
@@ -26,11 +25,6 @@ jed-extra
 
 # powerful terminal-based file manager, better than the one in JLab
 mc
-
-# for easily managing multiple repositories with one command (perl-doc
-# is needed for its help pages to work)
-mr
-perl-doc
 
 # Regular build tools for compiling common stuff
 build-essential
@@ -48,9 +42,6 @@ lmodern
 pandoc
 latexdiff
 
-# Some useful git utilities use basic Ruby
-ruby
-
 # Other niceties for command-line work and life
 ack   # powerful grep-like tool
 pydf  # colorized disk usage
@@ -62,11 +53,6 @@ zsh
 rsync
 tig  # console UI for git
 multitail
-
-# For later, these are not available in 18.04
-#browsh # text-based web browser, occasionally handy
-#dasel  # json/yml/csv/etc data wrangling at the terminal
-#fzf   # fuzzy file finder
 
 ## This section adds tools for desktop environment usage
 dbus-x11
