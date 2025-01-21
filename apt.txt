@@ -1,30 +1,17 @@
-# Some linux packages for basic terminal work, particularly
-# oriented at users new to Unix/cmd line environments.
-
-# Basic unix tools
+# general desired cli tools
+curl
+emacs
 less
+rsync
+vim
+wget
+screen
 man
 man-db
 manpages-posix
 manpages-dev
 manpages-posix-dev
-
-# Download tools
-curl
-wget
-rsync
-
-# Core text editors on a *nix box: vim
-vim
-
-# A couple of CLI editors that are easier than vim
-# micro  # currently not working on 18.04
-nano
-jed
-jed-extra
-
-# powerful terminal-based file manager, better than the one in JLab
-mc
+zip
 
 # Regular build tools for compiling common stuff
 build-essential
@@ -34,7 +21,6 @@ gfortran
 texlive-xetex
 texlive-fonts-recommended
 texlive-plain-generic
-# https://github.com/berkeley-dsep-infra/datahub/issues/3719
 texlive-lang-chinese
 lmodern
 
@@ -42,45 +28,22 @@ lmodern
 pandoc
 latexdiff
 
-# Other niceties for command-line work and life
-ack   # powerful grep-like tool
-pydf  # colorized disk usage
-tmux
-screen
-htop
-nnn   # cmd line file manager
-zsh
-rsync
-tig  # console UI for git
-multitail
-
-## This section adds tools for desktop environment usage
-dbus-x11
-xorg
-xubuntu-icon-theme
-xfce4
-xfce4-goodies
-xclip
-xsel
-firefox
-chromium-browser
-
-# GUI text editors
-vim-gtk3
-gedit
-
-# Git clients and tools
-git-gui
-gitg
-qgit
-meld
-
-# For jupyter-tree-download. Ref: https://github.com/berkeley-dsep-infra/datahub/issues/3979			
-zip
+# playwright deps https://jira-secure.berkeley.edu/browse/DH-325
+libnss3
+libnspr4
+libdbus-1-3
+libatk1.0-0
+libatk-bridge2.0-0
+libcups2
+libdrm2
+libxkbcommon0
+libatspi2.0-0
+libxcomposite1
+libxdamage1
+libxfixes3
+libxrandr2
+libgbm1
+libasound2
 
 # DH-93, DH94
 postgresql-client
-
-# playwright deps https://jira-secure.berkeley.edu/browse/DH-305
-libnss3
-libnspr4

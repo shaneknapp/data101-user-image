@@ -66,8 +66,8 @@ dependencies:
   - nbclassic==1.0.0
   - nbdime==4.0.2
   - networkx==2.8.6
-  - numba==0.57.0
-  - numpy==1.24.2
+  - numba==0.60.0
+  - numpy==1.26.4
   - pandas==2.0.3
   - pandoc==2.12
   - pandocfilters==1.5.0
