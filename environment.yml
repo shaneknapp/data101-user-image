@@ -8,6 +8,7 @@ dependencies:
   - gh-scoped-creds==4.1
   - git==2.47.1
   - jupyter-archive==3.4.0
+  - jupyter-offlinenotebook==0.3.1
   - jupyter-resource-usage==1.1.0  
   - jupyter-server-proxy==4.4.0
   - jupyter_server==2.15.0 
@@ -22,48 +23,52 @@ dependencies:
   - python==3.11.*
 
   # other stuff
+  # 2025-01-22 - Jon F, unless otherwise noted each commented out package is one
+  # the instructors for Spring 2025 have said is not required.  Leaving them
+  # commented out for now until end of semester when I'll likely remove them
+  # from the file entirely.
   - altair==5.0.1
   - beautifulsoup4==4.11.1
   - black==22.6.0
   - bokeh==2.4.3
-  - bqplot==0.12.34
-  - cartopy==0.24.0
+#  - bqplot==0.12.34
+#  - cartopy==0.24.0
   - coverage==7.2.2
   - cython==0.29.32
   - dbt-postgres==1.9.0
-  - distributed==2023.6.0
+#  - distributed==2023.6.0
   - folium==0.14.0
-  - fortran-magic==0.7
-  - graphviz==9.0.0
+#  - fortran-magic==0.7
+#  - graphviz==9.0.0
   - h5netcdf==1.0.2
-  - h5py==3.7.0
-  - hdf4==4.2.15
-  - hdf5==1.12.2
-  - intake==0.6.5
-  - intake-esm==2021.8.17
-  - intake-xarray==0.6.0
-  - ipycanvas==0.12.1
-  - ipydatagrid==1.4.0
-  - ipympl==0.9.2
-  - ipyparallel==8.4.1
+#  - h5py==3.7.0
+#  - hdf4==4.2.15
+#  - hdf5==1.12.2
+#  - intake==0.6.5
+#  - intake-esm==2021.8.17
+#  - intake-xarray==0.6.0
+#  - ipycanvas==0.12.1
+#  - ipydatagrid==1.4.0
+#  - ipympl==0.9.2
+  - ipyparallel==9.0.0
   - ipython-sql==0.3.9
   - ipywidgets==8.1.5
   - jsonschema==4.23.0
   - jupysql==0.10.17
   - jupyter-book==0.15.1
-  - jupyter_bokeh==2.0.4
+#  - jupyter_bokeh==2.0.4
   - jupyterlab-favorites==3.0.0
   - jupyterlab-geojson==3.2.0
   - jupyterlab-variableinspector==3.0.9
-  - jupyterlab_pygments==0.2.2
+#  - jupyterlab_pygments==0.2.2
   - jupyterlab_server==2.27.3
   - jupyterlab_widgets==3.0.13
   - matplotlib==3.7.1
   - matplotlib-inline==0.1.6
-  - micro==2.0.8
-  - mock==4.0.3
+#  - micro==2.0.8
+#  - mock==4.0.3
   - mongo-tools==4.0.4
-  - nbclassic==1.0.0
+#  - nbclassic==1.0.0
   - nbdime==4.0.2
   - networkx==2.8.6
   - numba==0.60.0
@@ -73,36 +78,36 @@ dependencies:
   - pandocfilters==1.5.0
   - pep8==1.7.1
   - pgspecial==1.13.1
-  - pillow==10.0.1 # sknapp 2024-09-05 had to unpin this version to fix build ==9.2.0
+#  - pillow==10.0.1 
   - plotly==5.13.1
-  - pooch==1.6.0
+#  - pooch==1.6.0
   - prettytable==3.12.0
   - psycopg==3.1.11
   - pyarrow==9.0.0
   - pymongo==4.10.1
   - pypdf2==2.10.4
   - pytables==3.7.0
-  - pytest==8.3.2 # sknapp 2024-09-05 had to unpin this version to fix build ==7.1.2
+  - pytest==8.3.2
   - pytest-cov==3.0.0
   - pytest-notebook==0.10.0
-  - python-graphviz==0.20.1
+#  - python-graphviz==0.20.1
   - python-pdfkit==1.0.0
   - requests==2.32.3
-  - scikit-image==0.19.3
-  - scikit-learn==1.2.2
+#  - scikit-image==0.19.3
+#  - scikit-learn==1.2.2
   - scipy==1.10.1
   - seaborn==0.13.2
-  - sphinx-jupyterbook-latex==0.5.2
+#  - sphinx-jupyterbook-latex==0.5.2
   - sqlalchemy==2.0.32
   - sqlparse==0.5.3
-  - statsmodels==0.14.0
-  - sympy==1.13.2 # sknapp 2024-09-05 had to unpin this version to fix build ==1.10.1
-  - syncthing==1.20.4
-  - tornado==6.2.0
+#  - statsmodels==0.14.0
+#  - sympy==1.13.2
+#  - syncthing==1.20.4
+#  - tornado==6.2.0
   - tqdm==4.64.0
-  - xarray==2023.5.0
+#  - xarray==2023.5.0
   - xlrd==2.0.1
-  - websockify==0.11.0
+#  - websockify==0.11.0
 
   - pip:
     # items required for basic functionality
@@ -114,9 +119,9 @@ dependencies:
     - jupyter-desktop-server==0.1.3
     - iwut==0.0.4
     # [DH-418] cannot get mamba to install this
-    - tensorflow-cpu==2.18.0
+#    - tensorflow-cpu==2.18.0
     # [DH-418] cannot get mamba to install this
-    - geopandas==0.12.1
+#    - geopandas==0.12.1
     # disable until fixed (probably this:  https://github.com/jupyterlab/jupyter-collaboration/issues/162)
     # DH-418, 2024-01-16, above issue still not fixed.  Also this package is available in condaforge
     # https://anaconda.org/conda-forge/jupyter-collaboration
