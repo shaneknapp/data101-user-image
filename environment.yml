@@ -19,6 +19,7 @@ dependencies:
   - jupytext==1.16.6
   - nbgitpuller==1.2.1
   - notebook==7.3.2
+  - otter-grader==6.1.0
   - pip==24.3.1  
   - python==3.11.*
 
@@ -113,7 +114,6 @@ dependencies:
     # items required for basic functionality
     - nbconvert[webpdf]==7.16.5
     - git-credential-helpers==0.2
-    - otter-grader==6.0.4
 
     # other stuff
     - jupyter-desktop-server==0.1.3
