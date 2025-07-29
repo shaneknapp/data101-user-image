@@ -45,5 +45,3 @@ libxrandr2
 libgbm1
 libasound2
 
-# DH-93, DH94
-postgresql-client
