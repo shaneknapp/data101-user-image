@@ -13,7 +13,7 @@ dependencies:
   - jupyter-server-proxy==4.4.0
   - jupyter_server==2.16.0
   - jupyterhub==5.3.0
-  - jupyterlab==4.4.4
+  - jupyterlab==4.4.5
   - jupyterlab-git==0.51.2
   - jupyterlab_rise==0.43.1
   - jupytext==1.16.6
@@ -22,6 +22,9 @@ dependencies:
   - otter-grader==6.1.3
   - pip==25.1.1
   - python==3.11.*
+
+  # Postgresql client DH-363
+  - postgresql==17.5
 
   # other stuff
   # 2025-01-22 - Jon F, unless otherwise noted each commented out package is one
@@ -34,7 +37,7 @@ dependencies:
   - bokeh==3.7.3
 #  - bqplot==0.12.34
 #  - cartopy==0.24.0
-  - coverage==7.9.1
+  - coverage==7.10.1
   - cython==3.1.2
   - dbt-postgres==1.9.0
 #  - distributed==2023.6.0
@@ -85,7 +88,7 @@ dependencies:
   - prettytable==3.16.0
   - psycopg==3.2.9
   - pyarrow==20.0.0
-  - pymongo==4.13.0
+  - pymongo==4.13.2
   - pypdf2==3.0.1
   - pytables==3.10.2
   - pytest==8.4.1
